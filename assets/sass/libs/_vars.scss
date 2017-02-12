@@ -30,20 +30,26 @@
 		weight-bold:		bold,
 		kerning-alt:		0.4em
 	);
+	
+	$primary-color: #312450;
+	$secondary-color: #5e42a6;
+	$tertiary-color: #5052b5;
+	$quaternary-color: #b74e91;
 
 // Palette.
 	$palette: (
-		bg:					#312450,
-		bg-alt:				darken(#312450, 5),
+		bg:					$primary-color,
+		bg-alt:				darken($primary-color, 5),
 		fg:					rgba(255,255,255,0.55),
 		fg-bold:			#ffffff,
 		fg-light:			rgba(255,255,255,0.35),
 		border:				rgba(255,255,255,0.15),
 		border-bg:			rgba(255,255,255,0.05),
-		accent1:			#5e42a6,
-		accent1-alt:		darken(#5e42a6, 10),
-		accent2:			#5052b5,
-		accent2-alt:		darken(#5052b5, 10),
-		accent3:			#b74e91,
-		accent3-alt:		darken(#b74e91, 10)
+		accent1:			$secondary-color,
+		accent1-alt:		darken($secondary-color, 10),
+		accent2:			$tertiary-color,
+		accent2-alt:		darken($tertiary-color, 10),
+		accent3:			$quaternary-color,
+		accent3-alt:		darken($quaternary-color, 10)
 	);
+	
