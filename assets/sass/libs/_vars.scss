@@ -31,11 +31,12 @@
 		kerning-alt:		0.4em
 	);
 	
-	$primary-color: #312450;
-	$secondary-color: #5e42a6;
-	$tertiary-color: #5052b5;
+	$primary-color: #1a1a1a;
+	$secondary-color: lighten($primary-color, 5);
+	$tertiary-color: #312450;
 	$quaternary-color: #b74e91;
-
+	$pink: #cb2b91;
+	
 // Palette.
 	$palette: (
 		bg:					$primary-color,
@@ -47,9 +48,9 @@
 		border-bg:			rgba(255,255,255,0.05),
 		accent1:			$secondary-color,
 		accent1-alt:		darken($secondary-color, 10),
-		accent2:			$tertiary-color,
+		accent2:			lighten($primary-color, 2),
 		accent2-alt:		darken($tertiary-color, 10),
 		accent3:			$quaternary-color,
-		accent3-alt:		darken($quaternary-color, 10)
+		accent3-alt:		darken($quaternary-color, 5)
 	);
 	

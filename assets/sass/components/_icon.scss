@@ -56,7 +56,7 @@
 			}
 			
 			.wrapper.style1-alt & {
-				color: _palette(accent1-alt);
+				color: _palette(accent1);
 			}
 			
 			.wrapper.style2 & {
@@ -72,7 +72,7 @@
 			}
 			
 			.wrapper.style3-alt & {
-				color: _palette(accent3-alt);
+				color: $pink;
 			}
 		}
 	}
